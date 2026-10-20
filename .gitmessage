@@ -1,0 +1,15 @@
+# <tipo>(<alcance>): <descripción corta y concisa en minúsculas>
+# Línea en blanco obligatoria
+# [Opcional: Descripción detallada del por qué del cambio]
+#
+# --- TIPOS DISPONIBLES ---
+# feat:     Nueva funcionalidad para el usuario / API
+# fix:      Corrección de un error (bug)
+# test:     Pruebas unitarias o de integración (Pytest / SDET)
+# ci:       Docker, GitHub Actions, despliegue o scripts de Pipeline
+# docs:     Documentación, README, comentarios, SPRINT.md
+# refactor: Limpieza de código sin alterar su comportamiento
+# chore:    Actualización de librerías, dependencias o configuración
+#
+# --- EJEMPLO ---
+# feat(orders): implementar comando cqrs para transicion de estado
